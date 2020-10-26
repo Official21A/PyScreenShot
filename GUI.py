@@ -19,11 +19,16 @@ def takeScreenshot ():
 
 def init():
 
-	canvas1 = tk.Canvas(root, width = 300, height = 300)
+	root.title("Shotter")
+	root.resizable(width=False, height=False)
+
+	canvas1 = tk.Canvas(root, width = 300, height = 150, border=0)
+	canvas1.configure(bg='#33001a')
 	canvas1.pack()
 
-	myButton = tk.Button(text='Take Screenshot', command=takeScreenshot, bg='green',fg='white',font= 10)
-	canvas1.create_window(150, 150, window=myButton)
+	myButton = tk.Button(text='Take Screenshot', command=takeScreenshot, 
+						 bg='#ff8533',fg='white',font= 12)
+	canvas1.create_window(150, 75, window=myButton)
 
 	root.mainloop()
 
