@@ -2,11 +2,15 @@ import pyautogui
 import tkinter as tk
 from tkinter import filedialog
 
+# An user interface program of taking screenshots,
+# init we close the gui window and take screenshots and
+# then we let you choose the path to save the file.
 
 root = tk.Tk()
 
 
 def takeScreenshot ():
+	# screen shot tacker function
     global root
     root.iconify()
 
@@ -18,7 +22,7 @@ def takeScreenshot ():
 
 
 def init():
-
+	# to start the program
 	root.title("Shotter")
 	root.resizable(width=False, height=False)
 
