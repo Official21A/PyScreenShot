@@ -35,13 +35,18 @@ def wait(limit=2):
 	time.sleep(limit)
 
 
-def execute():
+def execute(argv):
 	print("> System got executed ...")
 	folder()
-	wait()
+
+	if len(argv) > 1 and argv[1].isnumeric():
+		wait(int(argv[1]))
+	else:
+		wait()	
+
 	screenshot()
 	print("< Screen token.")
 
 
 if __name__ == "__main__":
-	execute()	
+	execute(sys.argv)	
