@@ -18,6 +18,6 @@ python consol.py "seconds"
 ```
 
 # Examples
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Official21A/PyScreenShot/blob/master/pics/Desktop.png)
+![alt text](https://github.com/Official21A/PyScreenShot/blob/master/pics/Oct_26_2020-07_57.png)
+![alt text](https://github.com/Official21A/PyScreenShot/blob/master/pics/google.png)
